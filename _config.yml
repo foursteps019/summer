@@ -1,4 +1,4 @@
-baseurl: "/summer"
+baseurl: "/_site"
 
 collections:
   authors:
