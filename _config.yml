@@ -1,9 +1,5 @@
-# Use baseurl only for GitHub Pages deployment
-{% if jekyll.environment == 'production' %}
 baseurl: "/summer"
-{% else %}
-baseurl: ""
-{% endif %}
+
 collections:
   authors:
     output: true
