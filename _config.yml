@@ -2,7 +2,7 @@
 {% if jekyll.environment == 'production' %}
 baseurl: "/summer"
 {% else %}
-baseurl: ""
+baseurl: "/summer"
 {% endif %}
 collections:
   authors:
