@@ -1,11 +1,5 @@
 baseurl: "/summer"
-<<<<<<< HEAD
 
-=======
-{% else %}
-baseurl: "/summer"
-{% endif %}
->>>>>>> 34448ef30bc88499f896bd70a5e4130593552c1f
 collections:
   authors:
     output: true
