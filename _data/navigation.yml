@@ -2,7 +2,11 @@
   link: /
 - name: About
   link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Staff
-  link: /staff.html
+- name: News&Events
+  link: /News&events.html
+- name: Excursions
+  link: /Excursions.html
+- name: Activities
+  link: /Activities.html
+- name: Services
+  link: /Services.html

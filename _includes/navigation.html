@@ -1,7 +1,9 @@
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-      {{ item.name }}
+<nav class="vertical-nav">
+  <ul> 
+    <h2>{% for item in site.data.navigation %}
+       <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+          <li>{{ item.name }}</li>
     </a>
-  {% endfor %}
+  {% endfor %}</h2>
+ </ul>
 </nav>
