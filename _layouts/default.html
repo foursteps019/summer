@@ -19,7 +19,15 @@
   <span class="bar"></span>
   <span class="bar"></span>
 </button>
-  {% include navigation.html %}
+  <nav class="mobile-menu">
+  <ul> 
+    <h2>{% for item in site.data.navigation %}
+       <a href="{{ site.baseurl }}{{ item.link }}">
+          <li>{{ item.name }}</li>
+    </a>
+  {% endfor %}</h2>
+ </ul>
+</nav>
 </header>    
 
     {% include navigation-side.html %}
