@@ -1,31 +1,24 @@
-.current {
-  color: green;
-}
-.mainmenu {
-}
-
 /* Reset default margin and padding for the list */
-.menu ul {
+.menu-side ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 /* Style for the navigation menu */
-.menu {
+.menu-side {
   width: 200px; /* Adjust the width as needed */
   background-color: #f4f4f4;
-  display: none;
 }
 
 
 /* Style for each list item */
-.menu li {
+.menu-side li {
   border-bottom: 1px solid #ddd;
 }
 
 /* Style for anchor links */
-.menu a {
+.menu-side a {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
@@ -33,6 +26,6 @@
 }
 
 /* Hover effect */
-.menu a:hover {
+.menu-side a:hover {
   background-color: #ddd;
 }
