@@ -37,7 +37,7 @@
 .header {
   background-color: #007bff; /* Blue background color */
   color: #fff; /* Text color */
-  padding: 10px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,7 +49,7 @@
 }
 
 .logo img {
-  width: 50px; /* Adjust size as needed */
+  width: 100px; /* Adjust size as needed */
   height: auto;
   margin-right: 10px;
 }
@@ -175,6 +175,11 @@
   text-decoration: none;
   color: #333;
   font-size: 16px;
+}
+
+/* Styling for the expanded menu */
+.mobile-menu.open {
+  display: block;
 }
 
 /*# sourceMappingURL=styles.css.map */
